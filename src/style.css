@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "gotham";
+  src: url("./Gotham-Book.ttf");
+}
+body {
+  background: #001220;
+}
+
+.gotham_font {
+  font-family: "gotham";
+}
+input {
+  margin: 0;
+  background-color: initial;
+  display: block;
+  width: 100%;
+  padding: 0;
+  border-width: 0;
+}
+@keyframes arrowUp {
+  50% {
+    transform: translateY(-4px);
+  }
+}
+
+@keyframes arrowDown {
+  50% {
+    transform: translateY(4px);
+  }
+}
+
+.Toastify__close-button--light{
+  color: #fff;
+  opacity: 0.8;
+}
